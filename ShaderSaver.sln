@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShaderSaver", "ShaderSaver\ShaderSaver.vcxproj", "{1BCCD988-4404-4383-B30A-4614D9134102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BCCD988-4404-4383-B30A-4614D9134102}.Debug|x64.ActiveCfg = Debug|x64
+		{1BCCD988-4404-4383-B30A-4614D9134102}.Debug|x64.Build.0 = Debug|x64
+		{1BCCD988-4404-4383-B30A-4614D9134102}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BCCD988-4404-4383-B30A-4614D9134102}.Debug|x86.Build.0 = Debug|Win32
+		{1BCCD988-4404-4383-B30A-4614D9134102}.Release|x64.ActiveCfg = Release|x64
+		{1BCCD988-4404-4383-B30A-4614D9134102}.Release|x64.Build.0 = Release|x64
+		{1BCCD988-4404-4383-B30A-4614D9134102}.Release|x86.ActiveCfg = Release|Win32
+		{1BCCD988-4404-4383-B30A-4614D9134102}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B79C19BB-E4B2-448A-80F4-F40C2763F449}
+	EndGlobalSection
+EndGlobal
