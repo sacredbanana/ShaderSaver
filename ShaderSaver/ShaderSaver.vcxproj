@@ -190,6 +190,12 @@
   <ItemGroup>
     <ResourceCompile Include="ShaderSaver.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="config.json">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
