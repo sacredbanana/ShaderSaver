@@ -130,7 +130,8 @@ namespace Renderer
 		// Now, since OpenGL is behaving a lot in fullscreen modes, lets collect the real obtained size!
 		int fbWidth = 1;
 		int fbHeight = 1;
-		//glfwGetFramebufferSize(mWindow, &fbWidth, &fbHeight);
+
+		SDL_GL_GetDrawableSize(window, &fbWidth, &fbHeight);
 		nWidth = settings->nWidth = fbWidth;
 		nHeight = settings->nHeight = fbHeight;
 		printf("[GLFW] Obtained framebuffer size: %d x %d\n", fbWidth, fbHeight);
